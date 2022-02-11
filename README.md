@@ -6,20 +6,20 @@ Here are the landing page screenshots :
 
 #### Desktop (1440px)
 
-![](./starter-code/assets/img/screenshots/desktop.png)
+![](./assets/img/screenshots/desktop.png)
 
 ________________________________________________
 
 
 #### Tablet (768px)
 
-![](./starter-code/assets/img/screenshots/tablet.png)
+![](./assets/img/screenshots/tablet.png)
 
 _________________________________________________
 
 #### Mobile (375px)
 
-![](./starter-code/assets/img/screenshots/mobile.png)
+![](./assets/img/screenshots/mobile.png)
 
 ____________________________________
 
