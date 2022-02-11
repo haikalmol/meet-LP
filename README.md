@@ -1,34 +1,4 @@
-# Frontend Mentor - Meet landing page solution
-
-This is a solution to the [Meet landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/meet-landing-page-rbTDS6OUR). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
-
-## Table of contents
-
-- [Frontend Mentor - Meet landing page solution](#frontend-mentor---meet-landing-page-solution)
-  - [Table of contents](#table-of-contents)
-  - [Overview](#overview)
-      - [The challenge](#the-challenge)
-    - [Screenshot](#screenshot)
-      - [Desktop (1440px)](#desktop-1440px)
-      - [Tablet (768px)](#tablet-768px)
-      - [Mobile (375px)](#mobile-375px)
-    - [Links](#links)
-  - [My process](#my-process)
-    - [Built with](#built-with)
-    - [What I learned](#what-i-learned)
-    - [Continued development](#continued-development)
-    - [Useful resources](#useful-resources)
-  - [Author](#author)
-
-
-## Overview
-
-#### The challenge
-
-Users should be able to:
-
-- View the optimal layout depending on their device's screen size
-- See hover states for interactive elements
+# Meet landing page 
 
 ### Screenshot
 
@@ -52,11 +22,6 @@ _________________________________________________
 ![](./starter-code/assets/img/screenshots/mobile.png)
 
 ____________________________________
-
-### Links
-
-- Solution URL: [Click here](https://www.frontendmentor.io/solutions/responsive-landing-page-meet-html-css-Q68U52NnS)
-- Live Site URL: [Click here](https://meet-landing-page-vert.vercel.app/)
 
 ## My process
 
@@ -101,13 +66,5 @@ the next challenge is to improve myself in **sass** and again on the **html & cs
 ### Useful resources
 
 - [How to Change a CSS Background Image’s Opacity](https://www.digitalocean.com/community/tutorials/how-to-change-a-css-background-images-opacity) - This helped to change a css Background Image opacity : this is what helped me to put a colored background with opacity over a background image 
-
-
-
-## Author
-
-- Website - [hadysane.tech](http://hadysane.tech/)
-- Frontend Mentor - [@hadysane](https://www.frontendmentor.io/profile/hadysane)
-- Twitter - [@HadySane](https://twitter.com/HadySane)
 
 
