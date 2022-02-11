@@ -1,0 +1,22 @@
+
+
+$primary : hsl(192, 37%, 48%);
+$secondary : hsl(268, 34%, 53%);
+$space_cadet : hsl(240, 21%, 20%);
+$cool_gray: hsl(240, 10%, 57%); 
+$photo_blue: hsl(192, 90%, 77%); 
+$mauve: hsl(268, 100%, 86%);
+$cultured: hsl(0, 0%, 98%);
+
+:root{
+    --green : #{$primary};
+    --violet: #{$secondary};
+    --black: #{$space_cadet};
+    --gray: #{$cool_gray};
+    --blue: #{$photo_blue};
+    --mauve: #{$mauve};
+    --white: #{$cultured}; 
+};
+
+
+$font-family : 'Red Hat Display', sans-serif;

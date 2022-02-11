@@ -1,0 +1,185 @@
+.header{
+    display: flex;
+    flex-direction: column;
+    margin-bottom:125px;
+    
+    .top{
+        padding-top: 80px;
+        padding-bottom:60px;
+        text-align: center;
+        img{
+            width: 119px;
+            max-height:28px; 
+        }
+    }
+
+    .hero{
+        display: flex;
+        justify-content: space-between;
+        gap:88px;
+
+        &__img--left, &__img--right{
+            width: 380px;
+            height: 303px;
+        }
+
+        &__img--left{
+            background-image: url('../img/desktop/image-hero-left.png');
+            background-size: cover;
+            background-repeat: no-repeat, no-repeat;
+            
+            background-position: 100% 50%;
+        }
+
+        &__img--right{
+            background-image: url('../img/desktop/image-hero-right.png');
+            background-size: cover;
+            background-repeat: no-repeat, no-repeat;
+            background-position: 0% 50%;
+        }
+
+        &__img--responsive{
+            
+            display: none;
+            background-image: url('../img/tablet/image-hero.png');
+            max-width:100%;
+            height: 153px;
+            background-size: cover;
+            background-repeat: no-repeat, no-repeat;
+            background-position: center;
+           
+        }
+
+        .container-header{
+            display:flex; 
+            flex-direction: column;
+            align-items: center;
+            max-width:540px;
+            text-align: center;
+            >p{
+                margin-bottom: 32px;
+            }
+        }
+
+        .content-header{
+            display:flex;
+            flex-direction: column;
+            gap:35px;
+            align-items: center;
+            >h1{
+                text-align: center;
+                max-width:445px;
+
+            }
+        }
+
+        &__callsOfActions{
+            display :flex; 
+            flex-wrap: wrap;
+           justify-content: center;
+            gap: 16px
+        }
+        
+    }
+}
+
+
+// Tablet version
+@media screen and (max-width: 770px) and (min-width: 376px) {
+    .header{
+        margin-bottom: 80px;
+        .top{
+            padding-top: 48px;
+            padding-bottom:64px;
+        }
+        .hero{
+            gap: 0;
+            p{
+              margin-top:0px;
+              margin-bottom:32px;
+            }
+            flex-direction: column;
+            justify-content: inherit;
+            text-align: center;
+
+            &__img--left, &__img--right{
+                display: none;
+            }
+
+            &__img--responsive{
+                display: block; 
+                margin-bottom: 72px ;
+                height:303px;
+            }
+
+            &__callsOfActions{
+                display :flex; 
+                gap: 16px;
+                align-items: center;
+            }
+            .container-header{
+                display:flex; 
+                flex-direction: column;
+                align-items: center;
+                
+                >h1{
+                    margin-bottom: 24px;
+                    max-width:327px;
+                }
+                >p{
+                    max-width: 430px;
+                }
+            }
+        
+        }
+    }
+}
+
+//mobile version 
+@media screen and (max-width: 376px) and (min-width: 0px) {
+    .header{
+        margin-bottom:64px;
+        .top{
+            padding-top: 48px;
+            padding-bottom:54px;
+        }
+        .hero{
+            gap: 0;
+            p{
+               margin-top: 24px; 
+               margin-bottom:32px;
+            }
+            flex-direction: column;
+            justify-content: inherit;
+            text-align: center;
+
+            &__img--left, &__img--right{
+                display: none;
+            }
+
+            &__img--responsive{
+                display: block; 
+                margin-bottom: 48px ;
+            }
+
+            &__callsOfActions{
+                display :flex; 
+                flex-direction: column;
+                gap: 16px;
+                align-items: center;
+                
+            }
+            .container-header{
+                max-width: 327px;
+                margin: 0 auto;
+            }
+            .content-header{
+                display:flex;
+                flex-direction: column;
+                gap:24px;
+                align-items: center;
+            }
+        
+        }
+    }
+}

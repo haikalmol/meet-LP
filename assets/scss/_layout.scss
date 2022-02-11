@@ -1,0 +1,28 @@
+.container{
+    max-width: 1110px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+//Tablet version
+@media screen and (max-width: 770px) and (min-width: 376px){
+    .container-header{
+        max-width: 425px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+  
+}
+
+
+//mobile version 
+@media screen and (max-width: 376px) and (min-width: 0px){
+    .container-header{
+        max-width: 320px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .container{
+        max-width: 327px;
+    }
+}

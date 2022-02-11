@@ -1,0 +1,109 @@
+.main{
+    margin-bottom: 80px;
+    .group-img{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top:64px;
+        gap:30px;
+        &__single{
+            width: 255px;
+            border-radius: 8px;
+                
+        }
+    }
+
+    .introduction{
+        display: flex;
+        flex-direction: column;
+        max-width: 540px;
+        margin-left:auto;
+        margin-right:auto;
+        margin-top: 80px;
+        text-align: center;
+        align-items: center;
+
+        >.overline{
+            margin-bottom: 25px;
+        }
+
+        >h2{
+            margin-bottom: 35px;
+            max-width: 445px;
+        }
+    }
+}
+
+
+//Tablet version
+@media screen and (max-width: 770px) and (min-width: 376px){
+
+    .main{
+        margin-bottom: 64px; 
+        & .step{
+            margin-bottom: 67px;
+        }
+        .group-img{
+            gap:11px; 
+
+            &__single{
+                width: 164px;
+                border-radius: 8px;
+            }
+        }
+
+
+        .introduction{
+            text-align:center;
+            align-items: center;
+            max-width: 573px;
+            margin-left:auto;
+            margin-right:auto;
+        
+            >.overline{
+                margin-bottom: 16px;
+            }
+
+            >h2{
+                margin-bottom: 32px;
+                max-width: 460px;
+            }
+        }
+
+    }
+    
+    
+   
+}
+
+
+//mobile version 
+@media screen and (max-width: 376px) and (min-width: 0px){
+    .main{
+        .group-img{
+            margin-top:64px;
+            margin-bottom:64px;
+            gap:25px;
+            &__single{
+                width: 151px;
+                border-radius: 8px;
+                
+            }
+        }
+
+        .introduction{
+            text-align:center;
+            align-items: center;
+            margin-bottom: 64px; 
+            padding: 0 24px;
+            >p{
+                margin-top: 35px;
+                margin-bottom:0px;
+            }
+        }
+
+    
+    } 
+    
+   
+}

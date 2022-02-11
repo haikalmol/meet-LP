@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;900&display=swap');
+
+body{
+    font-family: 'Red Hat Display', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    color: $cool_gray;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+}
+
+h1 {
+    font-family: $font-family;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 64px;
+    letter-spacing: 0px;
+    color: $space_cadet;
+}
+
+h2{
+    font-family: $font-family;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 44px;
+    letter-spacing: 0px;
+    color:  $space_cadet;
+}
+
+.overline{
+    font-family: $font-family;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 26px;
+    letter-spacing: 4px;
+    color:$primary;
+    text-transform: uppercase;
+}
+
+
+//Tablet version 
+@media screen and (max-width:768px) and (min-width: 375px) {
+    body{
+        font-size: 16px;
+    }
+    
+    h1 {
+        font-size: 48px;
+        line-height: 48px;    
+    }
+
+    h2{
+        
+        font-size: 44px;
+        margin: 0px 0px;
+    }
+}
+
+
+// mobile version 
+@media screen and (max-width: 376px) and (min-width: 0px) {
+    body{
+        font-size: 16px;
+    }
+    
+    h1 {
+        font-size: 44px;
+        
+    }
+
+    h2{
+        
+        font-size: 36px;
+        margin: 0px 0px;
+    }
+}

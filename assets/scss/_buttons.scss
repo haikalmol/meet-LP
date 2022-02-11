@@ -1,0 +1,61 @@
+
+%btn-form{
+    border-radius: 29px;
+    color: $cultured;
+    border:none;
+    font-family: $font-family;
+    font-weight: 900;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+@mixin btn($theme: $primary, $spanColor: $photo_blue, $bkLight: #71C0D4 ) {
+    background: $theme;
+    transition: opacity 0.1s ease-in ;
+    span{
+        color: $spanColor; 
+    }
+    &:hover{
+       
+        background: $bkLight;
+    }
+}
+
+.btn{
+    @extend %btn-form;
+    &.primary{
+        @include btn;
+        padding: 16px 40px 16px 40px;
+    }
+    &.secondary{
+        @include btn($theme: $secondary, $spanColor: $mauve, $bkLight: #B18BDD);
+        padding: 16px 29px 16px 29px;
+    }
+
+}
+
+.step{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    &__line{
+        border-left: 1px solid #D8D8D8;
+        height: 84px;
+       
+    }
+    &__button{
+        display: flex;
+        align-items: center;
+        border-radius: 29px;
+        border: 1px #D8D8D8 solid;
+        padding: 20px 17.4px;
+        height: 54px;
+        font-family: $font-family;
+        font-weight: bold;
+        color: $cool_gray;
+        background: $cultured;
+        font-size: 16px;
+    }
+    
+}
